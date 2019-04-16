@@ -93,7 +93,7 @@ const MoviesList = React.createClass({
 }); 
 
 const element = React.createElement('div', {},
-	React.createElement('h1', {},'Top 5 best film ever'.toUpperCase()),
+	React.createElement('h1', {},'Top 5 best films ever'.toUpperCase()),
 	React.createElement(MoviesList, {movies: movies}));
 	
 ReactDOM.render(element, document.getElementById('app'));
